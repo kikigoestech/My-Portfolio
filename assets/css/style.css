@@ -168,5 +168,28 @@ section h2 {
 .about-img img:hover {
     opacity: 0.5;
 }
-/*about me end
+/*about me end*/
 
+.img-container {
+    display: flex;
+    flex: 2 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-left: 5px solid var(--secondary);
+    padding-left: 30px;
+}
+
+.img-container .firstwork {
+    flex: 1 100%;
+    border: 5px solid var(--tertiary);
+    position: relative;
+    display: inline-block;
+    background-color: var(--secondary);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.firstwork img {
+    max-width: 100%;
+    display: block;
+}
