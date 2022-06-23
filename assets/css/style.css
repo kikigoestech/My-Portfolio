@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(220, 130, 130);
+    --primary: rgb(89, 222, 193);
     --secondary: rgb(248, 231, 231);
     --tertiary: white; 
 
@@ -18,10 +18,20 @@ body {
 
 header {
     background-color: var(--primary);
-    padding: 20px 40px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
     background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 1%;
+
+}
+
+
+.about-img {
+    margin-left: px;
 }
