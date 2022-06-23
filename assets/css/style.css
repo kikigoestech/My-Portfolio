@@ -106,7 +106,7 @@ footer p {
     background-position: center;
     background-attachment: fixed;
     background-position: 100%;
-    height: 600px;
+    height: 200px;
     background-attachment: fixed;
     background-position: 80%;
 }
@@ -192,4 +192,30 @@ section h2 {
 .firstwork img {
     max-width: 100%;
     display: block;
+}
+
+.firstwork a {
+    flex: 0 0 50%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+}
+
+.img-container .work {
+    flex: 1 50%;
+    border: 5px solid var(--tertiary);
+    position: relative;
+    display: inline-block;
+    background-color: var(--secondary);
+    padding: 15px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.contactme {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: left 10px;
+    border-left: 5px solid var(--primary);
 }
