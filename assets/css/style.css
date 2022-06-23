@@ -1,0 +1,27 @@
+:root {
+    --primary: rgb(220, 130, 130);
+    --secondary: rgb(248, 231, 231);
+    --tertiary: white; 
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: var(--primary);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-image: url(../images/hero.jpg);
+}
