@@ -1,7 +1,7 @@
 :root {
     --primary: rgb(89, 222, 193);
     --secondary: rgb(248, 231, 231);
-    --tertiary: white; 
+    --tertiary: rgb(220, 159, 159); 
 
 }
 
@@ -29,6 +29,24 @@ header {
     background-attachment: fixed;
     background-position: 1%;
 
+}
+
+header a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+header h1 a {
+    font-weight: lighter;
+    font size: 36px;
+    color: aliceblue;
+    margin:0;
+    transition:color 0s ease-in-out 0s
+}
+
+
+header h1 a:hover {
+    color:aliceblue
 }
 
 nav {
@@ -78,3 +96,78 @@ footer p {
     color: red;
     margin: 0;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+/*hero end*/
+
+.container {
+    margin: 100px auto;
+    padding-right: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 100%;
+    justify-content: center;
+}
+
+/* about me section */
+
+section h2 {
+    color: var(--secondary);
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    flex: 1 20%;
+}
+
+.aboutme {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+    border-left: 5px solid var(--secondary);
+}
+
+.aboutme p {
+    width: 70%;
+    margin-bottom: 20px;
+    color: var(--secondary);
+    line-height: 1.7;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.about-img {
+    margin-left: 20px;
+}
+
+.about-img img {
+    max-width: 200px;
+    border: 5px solid var(--tertiary);
+    height: auto;
+    float: left;
+    margin: 20px 20px 0 0;
+    flex: 2 0 0;
+}
+
+.about-img img:hover {
+    opacity: 0.5;
+}
+/*about me end
+
