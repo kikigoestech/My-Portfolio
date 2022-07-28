@@ -24,15 +24,16 @@ header {
     flex-wrap: wrap;
     top: 0;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
-    background-position: 1%;
+    background-position: 80%;
+   
 
 }
 
 header a {
     text-decoration: none;
-    color:aliceblue;
+    color:black;
 }
 
 header h1 a {
@@ -58,6 +59,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    
 }
 
 nav ul li a {
@@ -69,7 +71,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--primary);
+    color: var(--tertiary);
     border: 5px solid var(--tertiary);
 }
 
@@ -146,10 +148,14 @@ section h2 {
 .aboutme p {
     width: 70%;
     margin-bottom: 20px;
-    color: var(--secondary);
+    color: var(black);
     line-height: 1.7;
     font-size: 18px;
     padding-top: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .about-img {
@@ -187,6 +193,7 @@ section h2 {
     background-color: var(--secondary);
     padding: 15px;
     margin-bottom: 10px;
+    background-image: url("../images/me.JPG");
 }
 
 .firstwork img {
@@ -218,4 +225,20 @@ section h2 {
     flex-wrap: wrap;
     padding: left 10px;
     border-left: 5px solid var(--primary);
+}
+
+.work.img-1{
+    background-image: url("../images/me.JPG");
+}
+
+.work.img-2 {
+    background-image: url("../images/me.JPG");
+}
+
+.work.img-3 {
+    background-image: url("../images/me.JPG");
+}
+
+.work.img-4 {
+    background-image:url("../images/me.JPG") ;
 }
